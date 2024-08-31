@@ -1,0 +1,283 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(168,34,63,1) 16%, rgba(161,124,180,1) 40%);
+}
+
+.header-container {
+    margin: 5% 2% 2%;
+    padding: 5% 10% 10%;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: space-between; /* Espaço entre logo e textos */
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    
+
+}
+
+.text-container {
+    margin-right: 20px;
+    
+}
+
+#title {
+    font-size: 100px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(161,124,180,1);
+    
+}
+
+#subtitle {
+    font-size: 80px;
+    text-shadow: 2px 2px 5px rgba(161,124,180,1);
+}
+
+#logo {
+    width: 40%;
+    max-width: 550px;
+}
+
+.faixa-introducao {
+    margin: 5% 2% 2%;
+    border-radius: 10px;
+    background-attachment: fixed;
+    display: flex;
+    border-style: groove;
+    align-content: space-evenly; 
+    border-radius: 10px; 
+    background-attachment: fixed; /* Efeito parallax */
+    height: auto;
+    border-color: rgb(52, 41, 97);
+    background-color: rgb(236, 216, 255);
+    box-shadow: 5px 5px rgb(52, 41, 97)
+}
+#imagem-intro {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.intro-text-container {
+    
+    padding-left: 5%;
+    font-size: 20px;
+    align-content: center;
+    width: 60%;
+}
+.intro-text-container > h3 {
+    margin-bottom: 3%;
+    font-size: 30px;
+}
+.intro-text-container > p {
+    margin-left: 1%;
+}
+
+.faixa-servicos {
+    margin: 5% 2% 2%;
+    padding: 5% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-image: url("../../assets/images/bkgd-faixa2.jpg");
+    border-radius: 10px;
+    font-size: 20px;
+    background-position: center; 
+    border-radius: 10px; 
+    background-attachment: fixed; /* Efeito parallax */
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: rgb(54, 7, 18);
+    background-color: white;
+}
+
+.servicos-linha {
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    gap: 20px;
+    padding: 1%;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 45%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#botao-intro:hover {
+    box-shadow: 0 12px 16px 0 rgba(161,124,180,1), 0 17px 50px 0 rgba(161,124,180,1);
+  }
+
+.faixa-servicos > h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+}
+.servicos-linha > h4 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: #000000;
+}
+
+
+#Reiki {
+    background-image: url("../../assets/images/reiki.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
+    object-fit: fill;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+#constelacao {
+    background-image: url("../../assets/images/constelacao.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
+    object-fit: fill;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+    
+}
+
+#Ayuverda {
+    background-image: url("../../assets/images/ayuverda.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
+    object-fit: fill;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+    
+}
+
+#outras {
+    background-image: url("../../assets/images/outras-terapias.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
+    object-fit: fill;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+    
+}
+
+.faixa-vantagens {
+    margin: 5% 2% 2%;
+    border-radius: 10px;
+    background-attachment: fixed;
+    display: flex;
+    border-style: groove;
+    align-content: space-evenly; 
+    border-radius: 10px; 
+    background-attachment: fixed; /* Efeito parallax */
+    height: auto;
+    border-color: rgb(52, 41, 97);
+    background-color: rgb(236, 216, 255);
+    box-shadow: 5px 5px rgb(52, 41, 97)
+}
+#imagem-vantagens {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.intro-text-container {
+    
+    padding-left: 5%;
+    font-size: 20px;
+    align-content: center;
+    width: 60%;
+}
+.intro-text-container > h3 {
+    margin-bottom: 3%;
+    font-size: 30px;
+}
+.intro-text-container > p {
+    margin-left: 1%;
+}
+
+#botao-intro {
+    margin-top: 05%;
+    margin-left: 20%;
+    background-color:rgba(161,124,180,1);;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    padding: 2% 3%;
+    text-align: center;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 16px;
+    border-color: rgb(52, 41, 97);
+  }
+
+  .faixa-visita {
+    margin: 5% 2% 2%;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(52, 41, 97);
+    background-color: rgb(236, 216, 255);
+    box-shadow: 5px 5px rgb(52, 41, 97);
+    display: flex;
+    flex-direction: column; /* Coloca o título acima do iframe */
+    align-items: flex-start; /* Alinha o título à esquerda */
+    gap: 10px; /* Espaço entre o título e o iframe */
+}
+
+.visita-text-container {
+    padding-left: 2%;
+    font-size: 30px;
+}
+
+.faixa-visita iframe {
+    width: 100%; /* O iframe ocupa 100% da largura da div */
+    height: 500px; /* Altura automática */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(52, 41, 97);
+    color: #fff;
+    padding: 20px;
+    height: auto; /* Ajusta automaticamente à altura do conteúdo */
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px; /* Espaçamento uniforme entre os ícones */
+}
+
+.social-links a img {
+    width: 40px; /* Tamanho ajustável para os ícones */
+    height: 40px;
+    transition: transform 0.3s; /* Efeito de transição suave */
+}
+
+.social-links a img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    filter: brightness(1.2); /* Um leve brilho no hover */
+}

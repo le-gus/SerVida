@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Lora';
+    src: url("../assets/fonts/Lora-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: 'Lora';
+    margin: 0;
+    box-sizing: border-box;
+}

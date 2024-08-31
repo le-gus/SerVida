@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 2%, rgba(168, 34, 63, 1) 16%, rgba(161, 124, 180, 1) 40%);
+    font-family: 'Lora';
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-size: 3rem; /* Ajusta a font-size usando unidades relativas para responsividade */
+    margin: auto;
+    padding-right: 70%;
+    text-shadow: 2px 2px 6px rgba(161, 124, 180, 0.7);
+    text-align: center;
+    color: rgb(52, 41, 97);
+}
+
+form {
+    width: 60%;
+    margin: 10%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 82%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(52, 41, 97);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2b347d;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #344197;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #2b347d;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(52, 41, 97);
+    color: #fff;
+    padding: 20px;
+    height: auto; /* Ajusta automaticamente à altura do conteúdo */
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px; /* Espaçamento uniforme entre os ícones */
+}
+
+.social-links a img {
+    width: 40px; /* Tamanho ajustável para os ícones */
+    height: 40px;
+    transition: transform 0.3s; /* Efeito de transição suave */
+}
+
+.social-links a img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    filter: brightness(1.2); /* Um leve brilho no hover */
+}
