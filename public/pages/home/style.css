@@ -281,3 +281,111 @@ footer h3 {
     transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
     filter: brightness(1.2); /* Um leve brilho no hover */
 }
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(168,34,63,1) 16%, rgba(161,124,180,1) 40%);
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10% 5%;
+    }
+
+    .text-container {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #title {
+        font-size: 50px;
+    }
+
+    #subtitle {
+        font-size: 40px;
+    }
+
+    #logo {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .faixa-introducao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imagem-intro {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro-text-container {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .faixa-servicos {
+        padding: 5%;
+    }
+
+    .servicos-linha {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .servico {
+        width: 90%;
+    }
+
+    #Reiki, #constelacao, #Ayuverda, #outras {
+        height: 200px; /* Ajusta a altura para ser mais adequada ao mobile */
+        background-size: cover; /* Garante que as imagens cubram todo o espaço */
+    }
+
+    .faixa-vantagens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imagem-vantagens {
+        width: 100%;
+        height: auto;
+    }
+
+    #botao-intro {
+        width: auto;
+        margin: 5% auto;
+        display: block;
+    }
+
+    .faixa-visita {
+        align-items: center; /* Centraliza o título */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .visita-text-container {
+        font-size: 24px;
+    }
+
+    .faixa-visita iframe {
+        height: 300px; /* Reduz a altura do iframe para caber melhor */
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    .social-links a img {
+        width: 30px;
+        height: 30px;
+    }
+}

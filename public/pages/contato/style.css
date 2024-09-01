@@ -6,8 +6,7 @@ body {
 }
 
 #title {
-    font-size: 3rem; /* Ajusta a font-size usando unidades relativas para responsividade */
-    margin: auto;
+    font-size: 3rem; 
     padding-right: 70%;
     text-shadow: 2px 2px 6px rgba(161, 124, 180, 0.7);
     text-align: center;
@@ -91,7 +90,7 @@ footer {
     background-color: rgb(52, 41, 97);
     color: #fff;
     padding: 20px;
-    height: auto; /* Ajusta automaticamente à altura do conteúdo */
+    height: auto; 
     text-align: center;
 }
 
@@ -102,16 +101,58 @@ footer h3 {
 
 .social-links {
     display: flex;
-    gap: 20px; /* Espaçamento uniforme entre os ícones */
+    gap: 20px; 
 }
 
 .social-links a img {
-    width: 40px; /* Tamanho ajustável para os ícones */
+    width: 40px; 
     height: 40px;
-    transition: transform 0.3s; /* Efeito de transição suave */
+    transition: transform 0.3s; 
 }
 
 .social-links a img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-    filter: brightness(1.2); /* Um leve brilho no hover */
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 2.5rem; 
+        padding-right: 0; 
+        margin: 20px auto;
+    }
+
+    form {
+        width: 80%; 
+        margin: 5% auto; 
+        padding: 15px; 
+    }
+
+    .input-group input,
+    .input-group textarea {
+        width: 90%; 
+        padding: 8px; 
+    }
+
+    button[type="submit"] {
+        width: 40%; 
+        padding: 10px;
+        font-size: 0.9rem; 
+    }
+
+    .btn-link {
+        width: 60%;
+        padding: 10px;
+        font-size: 0.9rem;
+        margin: 10px auto; 
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    .social-links a img {
+        width: 30px;
+        height: 30px;
+    }
 }
